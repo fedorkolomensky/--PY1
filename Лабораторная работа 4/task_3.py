@@ -12,6 +12,7 @@ def delete(list_, index=None):
             pre_list.extend(post_list)
             return pre_list
         return 'В списке нет элемента с таким индексом'
+    list_.pop()        
     return list_
 
 print(delete([0, 0, 1, 2], index=0))
